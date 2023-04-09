@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+  background-color: #81a09d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.app{
+  text-align: center;
+  line-height: 3rem;
+  border: 0.3rem solid blue;
+  padding: 5rem;
+}
+.app h1{
+  font-size: 3rem;
+  color: blue;
+}
+.app p{
+  font-size: 1.6rem;
+}
+.w-h-70-40{
+  width: 70rem;
+  height: 40rem;
+}
